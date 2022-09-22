@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    outline: none;
+    z-index: 2000;
+}
+
+.center {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 1em;
+    padding: 1em 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size:larger;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
